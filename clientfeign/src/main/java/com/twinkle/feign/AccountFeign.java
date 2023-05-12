@@ -1,6 +1,6 @@
-package com.southwind.feign;
+package com.twinkle.feign;
 
-import com.southwind.entity.Account;
+import com.twinkle.entity.Account;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -1,10 +1,10 @@
-package com.southwind.controller;
+package com.twinkle.controller;
 
-import com.southwind.entity.Menu;
-import com.southwind.entity.MenuVO;
-import com.southwind.entity.Type;
-import com.southwind.repository.MenuRepository;
-import com.southwind.repository.TypeRepository;
+import com.twinkle.entity.Menu;
+import com.twinkle.entity.MenuVO;
+import com.twinkle.entity.Type;
+import com.twinkle.repository.MenuRepository;
+import com.twinkle.repository.TypeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

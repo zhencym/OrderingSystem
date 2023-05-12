@@ -1,6 +1,6 @@
-package com.southwind.filter;
+package com.twinkle.filter;
 
-import com.southwind.entity.Admin;
+import com.twinkle.entity.Admin;
 import org.springframework.stereotype.Component;
 
 import javax.servlet.*;

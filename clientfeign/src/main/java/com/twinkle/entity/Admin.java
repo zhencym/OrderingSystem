@@ -1,4 +1,4 @@
-package com.southwind.entity;
+package com.twinkle.entity;
 
 import lombok.Data;
 

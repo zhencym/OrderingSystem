@@ -1,10 +1,10 @@
-package com.southwind.controller;
+package com.twinkle.controller;
 
-import com.southwind.entity.Account;
-import com.southwind.entity.Admin;
-import com.southwind.entity.User;
-import com.southwind.feign.AccountFeign;
-import com.southwind.utils.ReflectUtils;
+import com.twinkle.entity.Account;
+import com.twinkle.entity.Admin;
+import com.twinkle.entity.User;
+import com.twinkle.feign.AccountFeign;
+import com.twinkle.utils.ReflectUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;

@@ -1,8 +1,8 @@
-package com.southwind.controller;
+package com.twinkle.controller;
 
-import com.southwind.entity.Account;
-import com.southwind.repository.AdminRepository;
-import com.southwind.repository.UserRepository;
+import com.twinkle.entity.Account;
+import com.twinkle.repository.AdminRepository;
+import com.twinkle.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

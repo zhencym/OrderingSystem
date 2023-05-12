@@ -1,4 +1,4 @@
-package com.southwind.utils;
+package com.twinkle.utils;
 
 import org.apache.commons.lang.reflect.FieldUtils;
 

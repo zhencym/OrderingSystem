@@ -1,6 +1,6 @@
-package com.southwind.repository;
+package com.twinkle.repository;
 
-import com.southwind.entity.Admin;
+import com.twinkle.entity.Admin;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper

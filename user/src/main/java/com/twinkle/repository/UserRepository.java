@@ -1,6 +1,6 @@
-package com.southwind.repository;
+package com.twinkle.repository;
 
-import com.southwind.entity.User;
+import com.twinkle.entity.User;
 
 import java.util.List;
 

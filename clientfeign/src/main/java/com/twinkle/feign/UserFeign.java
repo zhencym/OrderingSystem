@@ -1,7 +1,7 @@
-package com.southwind.feign;
+package com.twinkle.feign;
 
-import com.southwind.entity.User;
-import com.southwind.entity.UserVO;
+import com.twinkle.entity.User;
+import com.twinkle.entity.UserVO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 

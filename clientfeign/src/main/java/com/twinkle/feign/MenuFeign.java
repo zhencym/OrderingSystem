@@ -1,8 +1,8 @@
-package com.southwind.feign;
+package com.twinkle.feign;
 
-import com.southwind.entity.Menu;
-import com.southwind.entity.MenuVO;
-import com.southwind.entity.Type;
+import com.twinkle.entity.Menu;
+import com.twinkle.entity.MenuVO;
+import com.twinkle.entity.Type;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 

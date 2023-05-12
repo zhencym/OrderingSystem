@@ -1,7 +1,7 @@
-package com.southwind.controller;
+package com.twinkle.controller;
 
-import com.southwind.entity.*;
-import com.southwind.feign.OrderFeign;
+import com.twinkle.entity.*;
+import com.twinkle.feign.OrderFeign;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;

@@ -1,6 +1,6 @@
-package com.southwind.repository;
+package com.twinkle.repository;
 
-import com.southwind.entity.Menu;
+import com.twinkle.entity.Menu;
 
 import java.util.List;
 import org.apache.ibatis.annotations.Mapper;

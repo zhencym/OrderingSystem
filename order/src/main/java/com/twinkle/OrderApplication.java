@@ -1,4 +1,4 @@
-package com.southwind;
+package com.twinkle;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;

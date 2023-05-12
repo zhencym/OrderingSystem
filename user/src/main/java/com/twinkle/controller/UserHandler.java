@@ -1,8 +1,8 @@
-package com.southwind.controller;
+package com.twinkle.controller;
 
-import com.southwind.entity.User;
-import com.southwind.entity.UserVO;
-import com.southwind.repository.UserRepository;
+import com.twinkle.entity.User;
+import com.twinkle.entity.UserVO;
+import com.twinkle.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

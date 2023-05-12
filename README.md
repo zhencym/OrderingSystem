@@ -20,7 +20,6 @@ user 提供用户服务：添加用户、查询用户、删除用户。
 
 4个服务提供者和1个服务消费者都需要在注册中心完成注册，同时注册配置中心，提供远程配置信息读取，服务提供者和服务消费者的配置信息保存在 Git 远程仓库，由配置中心负责拉取，关系如下图所示。
 
-![1](https://github.com/southwind9801/orderingsystem/blob/master/model.png)
 
 本系统共有8个模块组成，包括注册中心，配置中心，Git 仓库配置信息，服务消费者，4个服务提供者。
 
@@ -35,7 +34,7 @@ pom.xml 引入 Spring Boot 和 Spring Cloud 相关依赖，其中 JAXB API 的�
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.southwind</groupId>
+    <groupId>com.twinkle</groupId>
     <artifactId>orderingsystem</artifactId>
     <version>1.0-SNAPSHOT</version>
 

@@ -1,9 +1,8 @@
-package com.southwind.controller;
+package com.twinkle.controller;
 
-import com.southwind.entity.Admin;
-import com.southwind.entity.Order;
-import com.southwind.entity.OrderVO;
-import com.southwind.repository.OrderRepository;
+import com.twinkle.entity.Order;
+import com.twinkle.entity.OrderVO;
+import com.twinkle.repository.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

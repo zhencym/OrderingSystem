@@ -1,11 +1,9 @@
-package com.southwind.feign;
+package com.twinkle.feign;
 
-import com.southwind.entity.Order;
-import com.southwind.entity.OrderVO;
+import com.twinkle.entity.Order;
+import com.twinkle.entity.OrderVO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
-
-import javax.servlet.http.HttpSession;
 
 @FeignClient(value = "order")
 public interface OrderFeign {
