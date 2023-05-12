@@ -10,24 +10,24 @@ spring:
 
 # spring-cloud配置中心两种配置方式
 #        1、从git读取各个微服务的配置文件
-#  cloud:
-#    config:
-#      server:
-#        git:
-#          uri: https://github.com/southwind9801/orderingsystem.git #git仓库地址
-#          searchPaths: config #仓库路径
-#          username: root #git仓库用户名
-#          password: root #git仓库密码
-#        label: master #仓库的分支
-
-#        2、从本地读取各个微服务的配置文件
-  profiles:
-    active: native
   cloud:
     config:
       server:
-        native:
-          search-locations: classpath:/config
+        git:
+          uri: https://github.com/zhencym/OrderingSystem.git #git仓库地址
+          searchPaths: config #仓库路径
+          username: zhencym #git仓库用户名
+          password: qq1540504013 #git仓库密码
+        label: master #仓库的分支
+
+#        2、从本地读取各个微服务的配置文件
+#  profiles:
+#    active: native
+#  cloud:
+#    config:
+#      server:
+#        native:
+#          search-locations: classpath:/config
 
 eureka:
   client:
